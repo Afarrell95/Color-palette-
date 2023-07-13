@@ -35,7 +35,7 @@ path, i, svg {
 }
 
 .color h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -120,7 +120,7 @@ path, i, svg {
 
 /* Slider stuff */
 input[type='range'] {
-    -webkit-appearance: none;
+
     margin: 1rem 0rem;
     width: 100%;
     position: relative;
@@ -232,3 +232,9 @@ input[type='range'] {
     background: rgb(89, 80, 168);
     color: white;
 }
+
+@media screen and (max-width: 750px) {
+    h2{
+        font-size: .5rem;
+    }
+  }
